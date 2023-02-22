@@ -13,8 +13,10 @@
     "compile": "hardhat compile",
     "test": "hardhat test --network zkSyncLocal",
     "clean": "hardhat clean",
-    "deploy:local": "hardhat deploy-zksync --network zkSyncLocal",
-    "deploy:era": "hardhat deploy-zksync --network zkSyncEra"
+    "deploy:local": "hardhat deploy-zksync --network zkSyncLocal --script deploy",
+    "deploy:era": "hardhat deploy-zksync --network zkSyncEra --script deploy",
+    "script:local": "hardhat deploy-zksync --network zkSyncLocal --script",
+    "script:era": "hardhat deploy-zksync --network zkSyncEra --script"
   },
   "devDependencies": {
     "@ethersproject/hash": "^5.7.0",
