@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@ethersproject/hash", "npm:5.7.0"],\
             ["@ethersproject/web", "npm:5.7.1"],\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2"],\
             ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
             ["@types/chai", "npm:4.3.4"],\
             ["@types/mocha", "npm:10.0.1"],\
@@ -538,17 +538,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@matterlabs/hardhat-zksync-deploy", [\
-        ["npm:0.6.1", {\
-          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.1-d6382d8103-5417c2049f.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
+        ["npm:0.6.2", {\
+          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.2-cb8eed3343-99fb5d0577.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-deploy", "npm:0.6.1"]\
+            ["@matterlabs/hardhat-zksync-deploy", "npm:0.6.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1", {\
-          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-deploy-virtual-b128c38ceb/0/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.1-d6382d8103-5417c2049f.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-deploy-virtual-a7a77caf16/0/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.2-cb8eed3343-99fb5d0577.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["@types/zksync-web3", null],\
@@ -5151,7 +5151,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["zksync-era-hardhat-example", "workspace:."],\
             ["@ethersproject/hash", "npm:5.7.0"],\
             ["@ethersproject/web", "npm:5.7.1"],\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2"],\
             ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
             ["@types/chai", "npm:4.3.4"],\
             ["@types/mocha", "npm:10.0.1"],\

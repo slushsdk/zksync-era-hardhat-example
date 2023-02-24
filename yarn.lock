@@ -454,16 +454,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@matterlabs/hardhat-zksync-deploy@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "@matterlabs/hardhat-zksync-deploy@npm:0.6.1"
+"@matterlabs/hardhat-zksync-deploy@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "@matterlabs/hardhat-zksync-deploy@npm:0.6.2"
   dependencies:
     chalk: 4.1.2
   peerDependencies:
     ethers: ~5.7.2
-    hardhat: ^2.12.4
-    zksync-web3: ^0.12.3
-  checksum: 5417c2049f00f1894a1fb0bd7ba15a88322afe858cb4ea9031e7b33d6cd15812a8d038851e3da87b9c95389bcf30599b20bc3651f8efa4e9900aa31916ab8001
+    hardhat: ^2.12.6
+    zksync-web3: ^0.13.4
+  checksum: 99fb5d057703e538d7fb8598b28c3227fd4c9f76c4b7ddc1dcfe7756833bb00e84394cc04682c27e563bcadc75381fcf6b4c5a167d538a7b0808542e1a0a6d24
   languageName: node
   linkType: hard
 
@@ -4545,7 +4545,7 @@ __metadata:
   dependencies:
     "@ethersproject/hash": ^5.7.0
     "@ethersproject/web": ^5.7.1
-    "@matterlabs/hardhat-zksync-deploy": ^0.6.1
+    "@matterlabs/hardhat-zksync-deploy": ^0.6.2
     "@matterlabs/hardhat-zksync-solc": ^0.3.14
     "@types/chai": ^4.3.4
     "@types/mocha": ^10.0.1

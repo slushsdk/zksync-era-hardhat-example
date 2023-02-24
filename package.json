@@ -21,7 +21,7 @@
   "devDependencies": {
     "@ethersproject/hash": "^5.7.0",
     "@ethersproject/web": "^5.7.1",
-    "@matterlabs/hardhat-zksync-deploy": "^0.6.1",
+    "@matterlabs/hardhat-zksync-deploy": "^0.6.2",
     "@matterlabs/hardhat-zksync-solc": "^0.3.14",
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
