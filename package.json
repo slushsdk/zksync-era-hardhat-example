@@ -1,12 +1,12 @@
 {
-  "name": "zksync-era-contract-deployment-demo",
+  "name": "zksync-era-hardhat-example",
   "description": "An example of how to deploy Solidity contracts to the zkSync Era network using Hardhat.",
   "version": "1.0.0",
   "author": " Bence Haromi <bence.haromi@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/benceharomi/zksync-era-contract-deployment-demo.git"
+    "url": "https://github.com/benceharomi/zksync-era-hardhat-example.git"
   },
   "packageManager": "yarn@3.3.1",
   "scripts": {

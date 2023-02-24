@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "zksync-era-contract-deployment-demo",\
+        "name": "zksync-era-hardhat-example",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["zksync-era-contract-deployment-demo", ["workspace:."]]\
+      ["zksync-era-hardhat-example", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -30,19 +30,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@ethersproject/hash", "npm:5.7.0"],\
             ["@ethersproject/web", "npm:5.7.1"],\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.6.1"],\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.3.14"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
             ["@types/chai", "npm:4.3.4"],\
             ["@types/mocha", "npm:10.0.1"],\
             ["@types/node", "npm:18.14.0"],\
             ["chai", "npm:4.3.7"],\
             ["dotenv", "npm:16.0.3"],\
             ["ethers", "npm:5.7.2"],\
-            ["hardhat", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:2.12.7"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
             ["mocha", "npm:10.2.0"],\
-            ["ts-node", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:10.9.1"],\
+            ["ts-node", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
-            ["zksync-web3", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.13.4"]\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -545,17 +545,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.6.1", {\
-          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-deploy-virtual-de245a88e8/0/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.1-d6382d8103-5417c2049f.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-deploy-virtual-b128c38ceb/0/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.1-d6382d8103-5417c2049f.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.6.1"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["@types/zksync-web3", null],\
             ["chalk", "npm:4.1.2"],\
             ["ethers", "npm:5.7.2"],\
-            ["hardhat", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:2.12.7"],\
-            ["zksync-web3", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.13.4"]\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"]\
           ],\
           "packagePeers": [\
             "@types/ethers",\
@@ -576,15 +576,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.3.14", {\
-          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-solc-virtual-c1cc559446/0/cache/@matterlabs-hardhat-zksync-solc-npm-0.3.14-10e320dc71-11ca4bc8fb.zip/node_modules/@matterlabs/hardhat-zksync-solc/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-solc-virtual-885e5b8a7f/0/cache/@matterlabs-hardhat-zksync-solc-npm-0.3.14-10e320dc71-11ca4bc8fb.zip/node_modules/@matterlabs/hardhat-zksync-solc/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.3.14"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
             ["@nomiclabs/hardhat-docker", "npm:2.0.2"],\
             ["@types/hardhat", null],\
             ["chalk", "npm:4.1.2"],\
             ["dockerode", "npm:3.3.4"],\
-            ["hardhat", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:2.12.7"]\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"]\
           ],\
           "packagePeers": [\
             "@types/hardhat",\
@@ -2787,10 +2787,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:2.12.7", {\
-          "packageLocation": "./.yarn/__virtual__/hardhat-virtual-ec5f5f2302/0/cache/hardhat-npm-2.12.7-096d5e2f93-d1f86c09f3.zip/node_modules/hardhat/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7", {\
+          "packageLocation": "./.yarn/__virtual__/hardhat-virtual-a0b0857604/0/cache/hardhat-npm-2.12.7-096d5e2f93-d1f86c09f3.zip/node_modules/hardhat/",\
           "packageDependencies": [\
-            ["hardhat", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:2.12.7"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@metamask/eth-sig-util", "npm:4.0.1"],\
             ["@nomicfoundation/ethereumjs-block", "npm:4.0.0"],\
@@ -2839,12 +2839,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["solc", "npm:0.7.3"],\
             ["source-map-support", "npm:0.5.21"],\
             ["stacktrace-parser", "npm:0.1.10"],\
-            ["ts-node", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:10.9.1"],\
+            ["ts-node", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:10.9.1"],\
             ["tsort", "npm:0.0.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
             ["undici", "npm:5.20.0"],\
             ["uuid", "npm:8.3.2"],\
-            ["ws", "virtual:ec5f5f2302ca5144efa9f04a065241ee64abaf447ed288800597f8bab54bea56a90df3dd1eb42039336ee7ccac74d1363ced2c75625c31686b8e912c84cc079a#npm:7.5.9"]\
+            ["ws", "virtual:a0b085760438b331812a89181959d5a769211866078798ea7e33ee484d33dad903cfb55124ace60928e3d874b58e043bb4390b42ce69edb214329755031d55eb#npm:7.5.9"]\
           ],\
           "packagePeers": [\
             "@types/ts-node",\
@@ -4729,10 +4729,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:10.9.1", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-f2c7498517/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:10.9.1", {\
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-970a6efb35/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:10.9.1"],\
+            ["ts-node", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:10.9.1"],\
             ["@cspotcode/source-map-support", "npm:0.8.1"],\
             ["@swc/core", null],\
             ["@swc/wasm", null],\
@@ -5029,10 +5029,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:ec5f5f2302ca5144efa9f04a065241ee64abaf447ed288800597f8bab54bea56a90df3dd1eb42039336ee7ccac74d1363ced2c75625c31686b8e912c84cc079a#npm:7.5.9", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-f7e47f66aa/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
+        ["virtual:a0b085760438b331812a89181959d5a769211866078798ea7e33ee484d33dad903cfb55124ace60928e3d874b58e043bb4390b42ce69edb214329755031d55eb#npm:7.5.9", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-45a287a81a/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:ec5f5f2302ca5144efa9f04a065241ee64abaf447ed288800597f8bab54bea56a90df3dd1eb42039336ee7ccac74d1363ced2c75625c31686b8e912c84cc079a#npm:7.5.9"],\
+            ["ws", "virtual:a0b085760438b331812a89181959d5a769211866078798ea7e33ee484d33dad903cfb55124ace60928e3d874b58e043bb4390b42ce69edb214329755031d55eb#npm:7.5.9"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
@@ -5144,26 +5144,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["zksync-era-contract-deployment-demo", [\
+      ["zksync-era-hardhat-example", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["zksync-era-contract-deployment-demo", "workspace:."],\
+            ["zksync-era-hardhat-example", "workspace:."],\
             ["@ethersproject/hash", "npm:5.7.0"],\
             ["@ethersproject/web", "npm:5.7.1"],\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.6.1"],\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.3.14"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.1"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
             ["@types/chai", "npm:4.3.4"],\
             ["@types/mocha", "npm:10.0.1"],\
             ["@types/node", "npm:18.14.0"],\
             ["chai", "npm:4.3.7"],\
             ["dotenv", "npm:16.0.3"],\
             ["ethers", "npm:5.7.2"],\
-            ["hardhat", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:2.12.7"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
             ["mocha", "npm:10.2.0"],\
-            ["ts-node", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:10.9.1"],\
+            ["ts-node", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
-            ["zksync-web3", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.13.4"]\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -5176,10 +5176,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.13.4", {\
-          "packageLocation": "./.yarn/__virtual__/zksync-web3-virtual-e1ac02e524/0/cache/zksync-web3-npm-0.13.4-478ca3c693-628d91a2c6.zip/node_modules/zksync-web3/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4", {\
+          "packageLocation": "./.yarn/__virtual__/zksync-web3-virtual-71df40ac23/0/cache/zksync-web3-npm-0.13.4-478ca3c693-628d91a2c6.zip/node_modules/zksync-web3/",\
           "packageDependencies": [\
-            ["zksync-web3", "virtual:5e22341da0d8efef35b9d31679d088262867c61e3451d805f37f832b57d93167c09f291c7efe3bac1c6b7695ba62ec7ea4ec48a202f09757955cb23c8dae566d#npm:0.13.4"],\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"],\
             ["@types/ethers", null],\
             ["ethers", "npm:5.7.2"]\
           ],\

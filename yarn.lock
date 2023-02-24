@@ -4539,9 +4539,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zksync-era-contract-deployment-demo@workspace:.":
+"zksync-era-hardhat-example@workspace:.":
   version: 0.0.0-use.local
-  resolution: "zksync-era-contract-deployment-demo@workspace:."
+  resolution: "zksync-era-hardhat-example@workspace:."
   dependencies:
     "@ethersproject/hash": ^5.7.0
     "@ethersproject/web": ^5.7.1

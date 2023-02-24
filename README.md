@@ -1,4 +1,4 @@
-# zkSync Era Contract Deployment Demo
+# zkSync Era Hardhat example
 This simple project provides an example of how to deploy [Solidity](https://soliditylang.org/) contracts to the [zkSync Era network](https://era.zksync.io/docs/) using [Hardhat](https://hardhat.org).
 
 ## Prerequisites
@@ -29,7 +29,7 @@ yarn compile
 ```
 
 ```
-➜  zksync-era-contract-deployment-demo git:(master) ✗ yarn compile
+➜  zksync-era-hardhat-example git:(master) ✗ yarn compile
 Successfully compiled 1 Solidity file
 ```
 
@@ -40,7 +40,7 @@ yarn deploy:local
 ```
 
 ```
-➜  zksync-era-contract-deployment-demo git:(master) ✗ yarn deploy:local
+➜  zksync-era-hardhat-example git:(master) ✗ yarn deploy:local
 Running example deploy script for the Greeter contract
 
 Depositing 0.001 ETH from L1 to L2...
@@ -72,7 +72,7 @@ The [deposit.ts](deploy/deposit.ts) is an example of how to deposit some funds f
 yarn script:era deposit
 ```
 ```
-zksync-era-contract-deployment-demo git:(master) ✗ yarn script:era deposit
+zksync-era-hardhat-example git:(master) ✗ yarn script:era deposit
 Running example deploy script for the Greeter contract
 
 Depositing 0.001 ETH from L1 to L2...
@@ -95,7 +95,7 @@ It does not really makes sense to do deposits on local testnet because there are
 yarn script:local deposit
 ```
 ```
-➜  zksync-era-contract-deployment-demo git:(master) ✗ yarn script:local deposit   
+➜  zksync-era-hardhat-example git:(master) ✗ yarn script:local deposit   
 Running example deploy script for the Greeter contract
 
 Depositing 0.001 ETH from L1 to L2...
@@ -109,7 +109,7 @@ The [interact.ts](deploy/interact.ts) contains an example of how to interact wit
 yarn script:local interact
 ```
 ```
-zksync-era-contract-deployment-demo git:(master) ✗ yarn script:local interact
+zksync-era-hardhat-example git:(master) ✗ yarn script:local interact
 Running example interact script for the Greeter contract
 
 Attaching to Greeter contract (0x22F4D93be0E8C0C081e74c0d5e697B64eEA007FF)...
@@ -138,7 +138,7 @@ yarn test
 ```
 
 ```
-➜  zksync-era-contract-deployment-demo git:(master) yarn test        
+➜  zksync-era-hardhat-example git:(master) yarn test        
 Successfully compiled 1 Solidity file
 
 
