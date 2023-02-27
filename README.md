@@ -163,3 +163,6 @@ If the artifacts folder is not empty, the contract will not be recompiled. Alway
 ```
 yarn clean && yarn compile
 ```
+
+## Credits
+This example is based on the [zkSync Era Documentation](https://github.com/matter-labs/zksync-web-era-docs), extends it and makes it easier to get started.
