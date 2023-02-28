@@ -49,7 +49,7 @@ Deposit processed.
 Greeter contract deployment started...
 Greeter contract deployment finished.
 Contract address: 0x996462e0eAf00bF6BF0Ea15F29d715C0eD3906F1
-Constructor args: 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000c48656c6c6f207468657265210000000000000000000000000000000000000000
+Constructor args: 'Hello there!'
 
 Calling the greet function...
 Function responded with: Hello there!
@@ -60,8 +60,21 @@ The contract can also be deployed to the zkSync Era network:
 yarn deploy:era
 ```
 
+## Verification
+To verify the deployed contract's source code on [zkcan](https://zksync2-testnet.zkscan.io) use the following command:
+```
+yarn verify:era <contract-address> <constructor-args>
+```
+
+```
+➜  zksync-era-hardhat-example git:(master) ✗ yarn verify:era 0x996462e0eAf00bF6BF0Ea15F29d715C0eD3906F1 'Hello there!'
+Nothing to compile
+Your verification ID is: 2950
+Contract successfully verified on zkSync block explorer!
+```
+
 ## Scripts
-Other scripts in the `deploy` directory can be executed using the `script` command followed by the script's filename (e.g. `yarn script:local filename` or `yarn script:era filename`).
+Other scripts in the `deploy` directory can be executed using the `script` command followed by the script's filename (e.g. `yarn script:local <filename>` or `yarn script:era <filename>`).
 
 There are 2 examples in addition to the deploy script in the [deploy](deploy) folder, they are explained below.
 

@@ -29,7 +29,8 @@ const deploy = async (hre: HardhatRuntimeEnvironment) => {
   const greeterContract = await deployer.deploy(artifact, constructorArguments);
   console.log(`${artifact.contractName} contract deployment finished.`);
   console.log(`Contract address: ${greeterContract.address}`);
-  console.log(`Constructor args: ${greeterContract.interface.encodeDeploy(constructorArguments)}`);
+  const constructorArgumentsString = constructorArguments.map((arg) => `'${arg}'`).join(' ');
+  console.log(`Constructor args: ${constructorArgumentsString}`);
   console.log();
 
   // greet function call (READ)
