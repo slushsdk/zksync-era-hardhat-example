@@ -8,7 +8,7 @@ import { utils, Wallet } from "zksync-web3";
 dotenv.config();
 
 const deploy = async (hre: HardhatRuntimeEnvironment) => {
-  console.log(`Running example deploy script for the Greeter contract`);
+  console.log(`Running example deposit script for the Greeter contract`);
   console.log();
 
   // private key from env var
