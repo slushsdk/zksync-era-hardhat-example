@@ -32,22 +32,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@ethersproject/address", "npm:5.7.0"],\
             ["@ethersproject/hash", "npm:5.7.0"],\
             ["@ethersproject/web", "npm:5.7.1"],\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2"],\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
-            ["@matterlabs/hardhat-zksync-verify", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2"],\
-            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.6"],\
+            ["@matterlabs/hardhat-zksync-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.3"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.16"],\
+            ["@matterlabs/hardhat-zksync-toolbox", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.1"],\
+            ["@matterlabs/hardhat-zksync-verify", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.5"],\
+            ["@matterlabs/hardhat-zksync-vyper", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.8"],\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:1.0.6"],\
+            ["@nomiclabs/hardhat-ethers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.2.3"],\
+            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.7"],\
+            ["@nomiclabs/hardhat-vyper", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.0.3"],\
             ["@types/chai", "npm:4.3.4"],\
             ["@types/mocha", "npm:10.0.1"],\
             ["@types/node", "npm:18.14.0"],\
             ["chai", "npm:4.3.7"],\
+            ["chai-as-promised", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:7.1.1"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["dotenv", "npm:16.0.3"],\
             ["ethers", "npm:5.7.2"],\
-            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"],\
             ["mocha", "npm:10.2.0"],\
+            ["ordinal", "npm:1.0.3"],\
             ["ts-node", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
-            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"]\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.14.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -57,6 +65,54 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@balena-dockerignore-npm-1.0.2-1128560642-0d39f8fbcf.zip/node_modules/@balena/dockerignore/",\
           "packageDependencies": [\
             ["@balena/dockerignore", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@chainsafe/as-sha256", [\
+        ["npm:0.3.1", {\
+          "packageLocation": "./.yarn/cache/@chainsafe-as-sha256-npm-0.3.1-02546f2fc1-58ea733be1.zip/node_modules/@chainsafe/as-sha256/",\
+          "packageDependencies": [\
+            ["@chainsafe/as-sha256", "npm:0.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@chainsafe/persistent-merkle-tree", [\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@chainsafe-persistent-merkle-tree-npm-0.4.2-c1f20f4351-f9cfcb2132.zip/node_modules/@chainsafe/persistent-merkle-tree/",\
+          "packageDependencies": [\
+            ["@chainsafe/persistent-merkle-tree", "npm:0.4.2"],\
+            ["@chainsafe/as-sha256", "npm:0.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.5.0", {\
+          "packageLocation": "./.yarn/cache/@chainsafe-persistent-merkle-tree-npm-0.5.0-995d949fa7-2c67203da7.zip/node_modules/@chainsafe/persistent-merkle-tree/",\
+          "packageDependencies": [\
+            ["@chainsafe/persistent-merkle-tree", "npm:0.5.0"],\
+            ["@chainsafe/as-sha256", "npm:0.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@chainsafe/ssz", [\
+        ["npm:0.10.2", {\
+          "packageLocation": "./.yarn/cache/@chainsafe-ssz-npm-0.10.2-c9313e98c4-6bb70cf741.zip/node_modules/@chainsafe/ssz/",\
+          "packageDependencies": [\
+            ["@chainsafe/ssz", "npm:0.10.2"],\
+            ["@chainsafe/as-sha256", "npm:0.3.1"],\
+            ["@chainsafe/persistent-merkle-tree", "npm:0.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.9.4", {\
+          "packageLocation": "./.yarn/cache/@chainsafe-ssz-npm-0.9.4-c0d8752130-c6eaedeae9.zip/node_modules/@chainsafe/ssz/",\
+          "packageDependencies": [\
+            ["@chainsafe/ssz", "npm:0.9.4"],\
+            ["@chainsafe/as-sha256", "npm:0.3.1"],\
+            ["@chainsafe/persistent-merkle-tree", "npm:0.4.2"],\
+            ["case", "npm:1.6.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -542,25 +598,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@matterlabs/hardhat-zksync-deploy", [\
-        ["npm:0.6.2", {\
-          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.2-cb8eed3343-99fb5d0577.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
+      ["@matterlabs/hardhat-zksync-chai-matchers", [\
+        ["npm:0.1.2", {\
+          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-chai-matchers-npm-0.1.2-cc884246de-3e6b48b9e1.zip/node_modules/@matterlabs/hardhat-zksync-chai-matchers/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-deploy", "npm:0.6.2"]\
+            ["@matterlabs/hardhat-zksync-chai-matchers", "npm:0.1.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2", {\
-          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-deploy-virtual-a7a77caf16/0/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.2-cb8eed3343-99fb5d0577.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-chai-matchers-virtual-75451f39b1/0/cache/@matterlabs-hardhat-zksync-chai-matchers-npm-0.1.2-cc884246de-3e6b48b9e1.zip/node_modules/@matterlabs/hardhat-zksync-chai-matchers/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2"],\
+            ["@matterlabs/hardhat-zksync-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2"],\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:1.0.6"],\
+            ["@types/nomicfoundation__hardhat-chai-matchers", null]\
+          ],\
+          "packagePeers": [\
+            "@nomicfoundation/hardhat-chai-matchers",\
+            "@types/nomicfoundation__hardhat-chai-matchers"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@matterlabs/hardhat-zksync-deploy", [\
+        ["npm:0.6.3", {\
+          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.3-5a98224740-6cf67fa003.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
+          "packageDependencies": [\
+            ["@matterlabs/hardhat-zksync-deploy", "npm:0.6.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.3", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-deploy-virtual-48ee182e74/0/cache/@matterlabs-hardhat-zksync-deploy-npm-0.6.3-5a98224740-6cf67fa003.zip/node_modules/@matterlabs/hardhat-zksync-deploy/",\
+          "packageDependencies": [\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.3"],\
             ["@types/ethers", null],\
             ["@types/hardhat", null],\
             ["@types/zksync-web3", null],\
             ["chalk", "npm:4.1.2"],\
             ["ethers", "npm:5.7.2"],\
-            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
-            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"]\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"],\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.14.4"]\
           ],\
           "packagePeers": [\
             "@types/ethers",\
@@ -581,15 +659,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14", {\
-          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-solc-virtual-885e5b8a7f/0/cache/@matterlabs-hardhat-zksync-solc-npm-0.3.14-10e320dc71-11ca4bc8fb.zip/node_modules/@matterlabs/hardhat-zksync-solc/",\
+        ["npm:0.3.16", {\
+          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-solc-npm-0.3.16-a9f31dd1ec-e6caf562d2.zip/node_modules/@matterlabs/hardhat-zksync-solc/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
+            ["@matterlabs/hardhat-zksync-solc", "npm:0.3.16"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.16", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-solc-virtual-d6b833591b/0/cache/@matterlabs-hardhat-zksync-solc-npm-0.3.16-a9f31dd1ec-e6caf562d2.zip/node_modules/@matterlabs/hardhat-zksync-solc/",\
+          "packageDependencies": [\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.16"],\
             ["@nomiclabs/hardhat-docker", "npm:2.0.2"],\
             ["@types/hardhat", null],\
             ["chalk", "npm:4.1.2"],\
             ["dockerode", "npm:3.3.4"],\
-            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"]\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"]\
           ],\
           "packagePeers": [\
             "@types/hardhat",\
@@ -597,10 +682,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:5d60765f170a332b5e7268fed695f4bc73d77ba21016ae7e031742f959ab5e5de4001b3e4fb1d1aad5eefcfa96eef3acc1172a22242fb8b33763df120e70cff1#npm:0.3.14", {\
-          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-solc-virtual-4373e370e1/0/cache/@matterlabs-hardhat-zksync-solc-npm-0.3.14-10e320dc71-11ca4bc8fb.zip/node_modules/@matterlabs/hardhat-zksync-solc/",\
+        ["virtual:cc58d765aabf63379393e462ec0b8bb3f555b06ad1afeb15bb8b12ba06d0f3cf05b126d0de3b17fa72cc7f07b12806fc832e4218e266fc39ef7dd54c47627757#npm:0.3.14", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-solc-virtual-7a044268ff/0/cache/@matterlabs-hardhat-zksync-solc-npm-0.3.14-10e320dc71-11ca4bc8fb.zip/node_modules/@matterlabs/hardhat-zksync-solc/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:5d60765f170a332b5e7268fed695f4bc73d77ba21016ae7e031742f959ab5e5de4001b3e4fb1d1aad5eefcfa96eef3acc1172a22242fb8b33763df120e70cff1#npm:0.3.14"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:cc58d765aabf63379393e462ec0b8bb3f555b06ad1afeb15bb8b12ba06d0f3cf05b126d0de3b17fa72cc7f07b12806fc832e4218e266fc39ef7dd54c47627757#npm:0.3.14"],\
             ["@nomiclabs/hardhat-docker", "npm:2.0.2"],\
             ["@types/hardhat", null],\
             ["chalk", "npm:4.1.2"],\
@@ -614,20 +699,54 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@matterlabs/hardhat-zksync-verify", [\
-        ["npm:0.1.2", {\
-          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-verify-npm-0.1.2-a0524181db-8ccc88e369.zip/node_modules/@matterlabs/hardhat-zksync-verify/",\
+      ["@matterlabs/hardhat-zksync-toolbox", [\
+        ["npm:0.1.1", {\
+          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-toolbox-npm-0.1.1-ae5e540190-b41f5af2e1.zip/node_modules/@matterlabs/hardhat-zksync-toolbox/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-verify", "npm:0.1.2"]\
+            ["@matterlabs/hardhat-zksync-toolbox", "npm:0.1.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2", {\
-          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-verify-virtual-5d60765f17/0/cache/@matterlabs-hardhat-zksync-verify-npm-0.1.2-a0524181db-8ccc88e369.zip/node_modules/@matterlabs/hardhat-zksync-verify/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-toolbox-virtual-7d2ffef3fd/0/cache/@matterlabs-hardhat-zksync-toolbox-npm-0.1.1-ae5e540190-b41f5af2e1.zip/node_modules/@matterlabs/hardhat-zksync-toolbox/",\
           "packageDependencies": [\
-            ["@matterlabs/hardhat-zksync-verify", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2"],\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:5d60765f170a332b5e7268fed695f4bc73d77ba21016ae7e031742f959ab5e5de4001b3e4fb1d1aad5eefcfa96eef3acc1172a22242fb8b33763df120e70cff1#npm:0.3.14"],\
-            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.6"],\
+            ["@matterlabs/hardhat-zksync-toolbox", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.1"],\
+            ["@matterlabs/hardhat-zksync-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.3"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.16"],\
+            ["@matterlabs/hardhat-zksync-verify", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.5"],\
+            ["@types/matterlabs__hardhat-zksync-chai-matchers", null],\
+            ["@types/matterlabs__hardhat-zksync-deploy", null],\
+            ["@types/matterlabs__hardhat-zksync-solc", null],\
+            ["@types/matterlabs__hardhat-zksync-verify", null]\
+          ],\
+          "packagePeers": [\
+            "@matterlabs/hardhat-zksync-chai-matchers",\
+            "@matterlabs/hardhat-zksync-deploy",\
+            "@matterlabs/hardhat-zksync-solc",\
+            "@matterlabs/hardhat-zksync-verify",\
+            "@types/matterlabs__hardhat-zksync-chai-matchers",\
+            "@types/matterlabs__hardhat-zksync-deploy",\
+            "@types/matterlabs__hardhat-zksync-solc",\
+            "@types/matterlabs__hardhat-zksync-verify"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@matterlabs/hardhat-zksync-verify", [\
+        ["npm:0.1.5", {\
+          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-verify-npm-0.1.5-6f2246d677-7ebbf79d40.zip/node_modules/@matterlabs/hardhat-zksync-verify/",\
+          "packageDependencies": [\
+            ["@matterlabs/hardhat-zksync-verify", "npm:0.1.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.5", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-verify-virtual-cc58d765aa/0/cache/@matterlabs-hardhat-zksync-verify-npm-0.1.5-6f2246d677-7ebbf79d40.zip/node_modules/@matterlabs/hardhat-zksync-verify/",\
+          "packageDependencies": [\
+            ["@matterlabs/hardhat-zksync-verify", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.5"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:cc58d765aabf63379393e462ec0b8bb3f555b06ad1afeb15bb8b12ba06d0f3cf05b126d0de3b17fa72cc7f07b12806fc832e4218e266fc39ef7dd54c47627757#npm:0.3.14"],\
+            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.7"],\
             ["@types/nomiclabs__hardhat-etherscan", null],\
             ["axios", "npm:1.3.4"],\
             ["chalk", "npm:4.1.2"],\
@@ -636,6 +755,35 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@nomiclabs/hardhat-etherscan",\
             "@types/nomiclabs__hardhat-etherscan"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@matterlabs/hardhat-zksync-vyper", [\
+        ["npm:0.1.8", {\
+          "packageLocation": "./.yarn/cache/@matterlabs-hardhat-zksync-vyper-npm-0.1.8-5c862dede6-e18e95292b.zip/node_modules/@matterlabs/hardhat-zksync-vyper/",\
+          "packageDependencies": [\
+            ["@matterlabs/hardhat-zksync-vyper", "npm:0.1.8"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.8", {\
+          "packageLocation": "./.yarn/__virtual__/@matterlabs-hardhat-zksync-vyper-virtual-5f7d996674/0/cache/@matterlabs-hardhat-zksync-vyper-npm-0.1.8-5c862dede6-e18e95292b.zip/node_modules/@matterlabs/hardhat-zksync-vyper/",\
+          "packageDependencies": [\
+            ["@matterlabs/hardhat-zksync-vyper", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.8"],\
+            ["@nomiclabs/hardhat-docker", "npm:2.0.2"],\
+            ["@nomiclabs/hardhat-vyper", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.0.3"],\
+            ["@types/hardhat", null],\
+            ["@types/nomiclabs__hardhat-vyper", null],\
+            ["chalk", "npm:4.1.2"],\
+            ["dockerode", "npm:3.3.4"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"]\
+          ],\
+          "packagePeers": [\
+            "@nomiclabs/hardhat-vyper",\
+            "@types/hardhat",\
+            "@types/nomiclabs__hardhat-vyper",\
+            "hardhat"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -673,31 +821,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-block", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-block-npm-4.0.0-2250ae77f4-a57a33dda7.zip/node_modules/@nomicfoundation/ethereumjs-block/",\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-block-npm-5.0.1-36ba33b8af-02591bc9ba.zip/node_modules/@nomicfoundation/ethereumjs-block/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-block", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-trie", "npm:5.0.0"],\
-            ["@nomicfoundation/ethereumjs-tx", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
-            ["ethereum-cryptography", "npm:0.1.3"]\
+            ["@nomicfoundation/ethereumjs-block", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
+            ["@nomicfoundation/ethereumjs-tx", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
+            ["ethereum-cryptography", "npm:0.1.3"],\
+            ["ethers", "npm:5.7.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-blockchain", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-blockchain-npm-6.0.0-75e1d2def4-5605c1d249.zip/node_modules/@nomicfoundation/ethereumjs-blockchain/",\
+        ["npm:7.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-blockchain-npm-7.0.1-70afb79069-8b7a4e3613.zip/node_modules/@nomicfoundation/ethereumjs-blockchain/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-blockchain", "npm:6.0.0"],\
-            ["@nomicfoundation/ethereumjs-block", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-ethash", "npm:2.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-trie", "npm:5.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
+            ["@nomicfoundation/ethereumjs-blockchain", "npm:7.0.1"],\
+            ["@nomicfoundation/ethereumjs-block", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-ethash", "npm:3.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
+            ["@nomicfoundation/ethereumjs-tx", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
             ["abstract-level", "npm:1.0.3"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["ethereum-cryptography", "npm:0.1.3"],\
@@ -709,24 +859,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-common", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-common-npm-3.0.0-f573286e4f-6a62908e5c.zip/node_modules/@nomicfoundation/ethereumjs-common/",\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-common-npm-4.0.1-db8034d032-af5b599bcc.zip/node_modules/@nomicfoundation/ethereumjs-common/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
             ["crc-32", "npm:1.2.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-ethash", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-ethash-npm-2.0.0-226553c58b-60133df2d4.zip/node_modules/@nomicfoundation/ethereumjs-ethash/",\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-ethash-npm-3.0.1-1306100131-beeec9788a.zip/node_modules/@nomicfoundation/ethereumjs-ethash/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-ethash", "npm:2.0.0"],\
-            ["@nomicfoundation/ethereumjs-block", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
+            ["@nomicfoundation/ethereumjs-ethash", "npm:3.0.1"],\
+            ["@nomicfoundation/ethereumjs-block", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
             ["abstract-level", "npm:1.0.3"],\
             ["bigint-crypto-utils", "npm:3.1.8"],\
             ["ethereum-cryptography", "npm:0.1.3"]\
@@ -735,14 +885,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-evm", [\
-        ["npm:1.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-evm-npm-1.0.0-6161f7f3a0-d1ffaa1a02.zip/node_modules/@nomicfoundation/ethereumjs-evm/",\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-evm-npm-2.0.1-d5164cbc38-0aa2e1460e.zip/node_modules/@nomicfoundation/ethereumjs-evm/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-evm", "npm:1.0.0"],\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
-            ["@types/async-eventemitter", "npm:0.2.1"],\
-            ["async-eventemitter", "npm:0.2.4"],\
+            ["@nomicfoundation/ethereumjs-evm", "npm:2.0.1"],\
+            ["@ethersproject/providers", "npm:5.7.2"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-tx", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["ethereum-cryptography", "npm:0.1.3"],\
             ["mcl-wasm", "npm:0.7.9"],\
@@ -752,37 +902,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-rlp", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-rlp-npm-4.0.0-f7c95bd5db-b358d239e5.zip/node_modules/@nomicfoundation/ethereumjs-rlp/",\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-rlp-npm-5.0.1-57535e6ba3-5a51d2cf92.zip/node_modules/@nomicfoundation/ethereumjs-rlp/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"]\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-statemanager", [\
-        ["npm:1.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-statemanager-npm-1.0.0-a0c3142cae-fad02ea922.zip/node_modules/@nomicfoundation/ethereumjs-statemanager/",\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-statemanager-npm-2.0.1-2dbc89ff8f-157b503fa3.zip/node_modules/@nomicfoundation/ethereumjs-statemanager/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-statemanager", "npm:1.0.0"],\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-trie", "npm:5.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
+            ["@nomicfoundation/ethereumjs-statemanager", "npm:2.0.1"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["ethereum-cryptography", "npm:0.1.3"],\
-            ["functional-red-black-tree", "npm:1.0.1"]\
+            ["ethers", "npm:5.7.2"],\
+            ["js-sdsl", "npm:4.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-trie", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-trie-npm-5.0.0-e71cd0360a-468de7ffe0.zip/node_modules/@nomicfoundation/ethereumjs-trie/",\
+        ["npm:6.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-trie-npm-6.0.1-d6e8b61c63-7001c32041.zip/node_modules/@nomicfoundation/ethereumjs-trie/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-trie", "npm:5.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
+            ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
+            ["@types/readable-stream", "npm:2.3.15"],\
             ["ethereum-cryptography", "npm:0.1.3"],\
             ["readable-stream", "npm:3.6.0"]\
           ],\
@@ -790,50 +940,89 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-tx", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-tx-npm-4.0.0-4c6c80449d-d2c0e3384a.zip/node_modules/@nomicfoundation/ethereumjs-tx/",\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-tx-npm-5.0.1-25e56e165c-aa3829e4a4.zip/node_modules/@nomicfoundation/ethereumjs-tx/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-tx", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
+            ["@nomicfoundation/ethereumjs-tx", "npm:5.0.1"],\
+            ["@chainsafe/ssz", "npm:0.9.4"],\
+            ["@ethersproject/providers", "npm:5.7.2"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
             ["ethereum-cryptography", "npm:0.1.3"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-util", [\
-        ["npm:8.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-util-npm-8.0.0-b24eb6cc50-a39be4c8d3.zip/node_modules/@nomicfoundation/ethereumjs-util/",\
+        ["npm:9.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-util-npm-9.0.1-6715066745-5f8a50a25c.zip/node_modules/@nomicfoundation/ethereumjs-util/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
+            ["@chainsafe/ssz", "npm:0.10.2"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
             ["ethereum-cryptography", "npm:0.1.3"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@nomicfoundation/ethereumjs-vm", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-vm-npm-6.0.0-74b0744a09-3c0e10b377.zip/node_modules/@nomicfoundation/ethereumjs-vm/",\
+        ["npm:7.0.1", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-ethereumjs-vm-npm-7.0.1-01921364a3-0f63731632.zip/node_modules/@nomicfoundation/ethereumjs-vm/",\
           "packageDependencies": [\
-            ["@nomicfoundation/ethereumjs-vm", "npm:6.0.0"],\
-            ["@nomicfoundation/ethereumjs-block", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-blockchain", "npm:6.0.0"],\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-evm", "npm:1.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-statemanager", "npm:1.0.0"],\
-            ["@nomicfoundation/ethereumjs-trie", "npm:5.0.0"],\
-            ["@nomicfoundation/ethereumjs-tx", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
-            ["@types/async-eventemitter", "npm:0.2.1"],\
-            ["async-eventemitter", "npm:0.2.4"],\
+            ["@nomicfoundation/ethereumjs-vm", "npm:7.0.1"],\
+            ["@nomicfoundation/ethereumjs-block", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-blockchain", "npm:7.0.1"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-evm", "npm:2.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-statemanager", "npm:2.0.1"],\
+            ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
+            ["@nomicfoundation/ethereumjs-tx", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["ethereum-cryptography", "npm:0.1.3"],\
-            ["functional-red-black-tree", "npm:1.0.1"],\
             ["mcl-wasm", "npm:0.7.9"],\
             ["rustbn.js", "npm:0.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nomicfoundation/hardhat-chai-matchers", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/@nomicfoundation-hardhat-chai-matchers-npm-1.0.6-6b72e1bd99-c388e5ed90.zip/node_modules/@nomicfoundation/hardhat-chai-matchers/",\
+          "packageDependencies": [\
+            ["@nomicfoundation/hardhat-chai-matchers", "npm:1.0.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:1.0.6", {\
+          "packageLocation": "./.yarn/__virtual__/@nomicfoundation-hardhat-chai-matchers-virtual-be9c281e74/0/cache/@nomicfoundation-hardhat-chai-matchers-npm-1.0.6-6b72e1bd99-c388e5ed90.zip/node_modules/@nomicfoundation/hardhat-chai-matchers/",\
+          "packageDependencies": [\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:1.0.6"],\
+            ["@ethersproject/abi", "npm:5.7.0"],\
+            ["@nomiclabs/hardhat-ethers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.2.3"],\
+            ["@types/chai", "npm:4.3.4"],\
+            ["@types/chai-as-promised", "npm:7.1.5"],\
+            ["@types/ethers", null],\
+            ["@types/hardhat", null],\
+            ["@types/nomiclabs__hardhat-ethers", null],\
+            ["chai", "npm:4.3.7"],\
+            ["chai-as-promised", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:7.1.1"],\
+            ["deep-eql", "npm:4.1.3"],\
+            ["ethers", "npm:5.7.2"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"],\
+            ["ordinal", "npm:1.0.3"]\
+          ],\
+          "packagePeers": [\
+            "@nomiclabs/hardhat-ethers",\
+            "@types/chai",\
+            "@types/ethers",\
+            "@types/hardhat",\
+            "@types/nomiclabs__hardhat-ethers",\
+            "chai",\
+            "ethers",\
+            "hardhat"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -959,18 +1148,44 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@nomiclabs/hardhat-etherscan", [\
-        ["npm:3.1.6", {\
-          "packageLocation": "./.yarn/cache/@nomiclabs-hardhat-etherscan-npm-3.1.6-9f5415e119-5b1fd197f5.zip/node_modules/@nomiclabs/hardhat-etherscan/",\
+      ["@nomiclabs/hardhat-ethers", [\
+        ["npm:2.2.3", {\
+          "packageLocation": "./.yarn/cache/@nomiclabs-hardhat-ethers-npm-2.2.3-7206da2782-72321317e5.zip/node_modules/@nomiclabs/hardhat-ethers/",\
           "packageDependencies": [\
-            ["@nomiclabs/hardhat-etherscan", "npm:3.1.6"]\
+            ["@nomiclabs/hardhat-ethers", "npm:2.2.3"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.6", {\
-          "packageLocation": "./.yarn/__virtual__/@nomiclabs-hardhat-etherscan-virtual-a1ae7920c6/0/cache/@nomiclabs-hardhat-etherscan-npm-3.1.6-9f5415e119-5b1fd197f5.zip/node_modules/@nomiclabs/hardhat-etherscan/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.2.3", {\
+          "packageLocation": "./.yarn/__virtual__/@nomiclabs-hardhat-ethers-virtual-9c16e39b79/0/cache/@nomiclabs-hardhat-ethers-npm-2.2.3-7206da2782-72321317e5.zip/node_modules/@nomiclabs/hardhat-ethers/",\
           "packageDependencies": [\
-            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.6"],\
+            ["@nomiclabs/hardhat-ethers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.2.3"],\
+            ["@types/ethers", null],\
+            ["@types/hardhat", null],\
+            ["ethers", "npm:5.7.2"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/ethers",\
+            "@types/hardhat",\
+            "ethers",\
+            "hardhat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nomiclabs/hardhat-etherscan", [\
+        ["npm:3.1.7", {\
+          "packageLocation": "./.yarn/cache/@nomiclabs-hardhat-etherscan-npm-3.1.7-d8bff26aa0-32d74e567e.zip/node_modules/@nomiclabs/hardhat-etherscan/",\
+          "packageDependencies": [\
+            ["@nomiclabs/hardhat-etherscan", "npm:3.1.7"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.7", {\
+          "packageLocation": "./.yarn/__virtual__/@nomiclabs-hardhat-etherscan-virtual-b60b82302c/0/cache/@nomiclabs-hardhat-etherscan-npm-3.1.7-d8bff26aa0-32d74e567e.zip/node_modules/@nomiclabs/hardhat-etherscan/",\
+          "packageDependencies": [\
+            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.7"],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@ethersproject/address", "npm:5.7.0"],\
             ["@types/hardhat", null],\
@@ -978,11 +1193,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:2.4.2"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["fs-extra", "npm:7.0.1"],\
-            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"],\
             ["lodash", "npm:4.17.21"],\
             ["semver", "npm:6.3.0"],\
             ["table", "npm:6.8.1"],\
             ["undici", "npm:5.20.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/hardhat",\
+            "hardhat"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nomiclabs/hardhat-vyper", [\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/cache/@nomiclabs-hardhat-vyper-npm-3.0.3-e563b90f77-fc5b98825c.zip/node_modules/@nomiclabs/hardhat-vyper/",\
+          "packageDependencies": [\
+            ["@nomiclabs/hardhat-vyper", "npm:3.0.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/@nomiclabs-hardhat-vyper-virtual-5e571c9071/0/cache/@nomiclabs-hardhat-vyper-npm-3.0.3-e563b90f77-fc5b98825c.zip/node_modules/@nomiclabs/hardhat-vyper/",\
+          "packageDependencies": [\
+            ["@nomiclabs/hardhat-vyper", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.0.3"],\
+            ["@types/hardhat", null],\
+            ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
+            ["fs-extra", "npm:7.0.1"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"],\
+            ["io-ts", "npm:1.10.4"],\
+            ["lodash", "npm:4.17.21"],\
+            ["semver", "npm:6.3.0"]\
           ],\
           "packagePeers": [\
             "@types/hardhat",\
@@ -1180,15 +1422,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@types/async-eventemitter", [\
-        ["npm:0.2.1", {\
-          "packageLocation": "./.yarn/cache/@types-async-eventemitter-npm-0.2.1-948dbf815e-36ba0a6f52.zip/node_modules/@types/async-eventemitter/",\
-          "packageDependencies": [\
-            ["@types/async-eventemitter", "npm:0.2.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["@types/bn.js", [\
         ["npm:4.11.6", {\
           "packageLocation": "./.yarn/cache/@types-bn.js-npm-4.11.6-85f0d125f5-7f66f2c7b7.zip/node_modules/@types/bn.js/",\
@@ -1211,6 +1444,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["npm:4.3.4", {\
           "packageLocation": "./.yarn/cache/@types-chai-npm-4.3.4-fc230290e8-571184967b.zip/node_modules/@types/chai/",\
           "packageDependencies": [\
+            ["@types/chai", "npm:4.3.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/chai-as-promised", [\
+        ["npm:7.1.5", {\
+          "packageLocation": "./.yarn/cache/@types-chai-as-promised-npm-7.1.5-c83fbd2182-7c1345c6e3.zip/node_modules/@types/chai-as-promised/",\
+          "packageDependencies": [\
+            ["@types/chai-as-promised", "npm:7.1.5"],\
             ["@types/chai", "npm:4.3.4"]\
           ],\
           "linkType": "HARD"\
@@ -1249,6 +1492,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/pbkdf2", "npm:3.1.0"],\
             ["@types/node", "npm:18.14.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/readable-stream", [\
+        ["npm:2.3.15", {\
+          "packageLocation": "./.yarn/cache/@types-readable-stream-npm-2.3.15-d06d8380b8-ec36f525ca.zip/node_modules/@types/readable-stream/",\
+          "packageDependencies": [\
+            ["@types/readable-stream", "npm:2.3.15"],\
+            ["@types/node", "npm:18.14.0"],\
+            ["safe-buffer", "npm:5.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1517,26 +1771,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/astral-regex-npm-2.0.0-f30d866aab-876231688c.zip/node_modules/astral-regex/",\
           "packageDependencies": [\
             ["astral-regex", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["async", [\
-        ["npm:2.6.4", {\
-          "packageLocation": "./.yarn/cache/async-npm-2.6.4-3155e80151-a52083fb32.zip/node_modules/async/",\
-          "packageDependencies": [\
-            ["async", "npm:2.6.4"],\
-            ["lodash", "npm:4.17.21"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["async-eventemitter", [\
-        ["npm:0.2.4", {\
-          "packageLocation": "./.yarn/cache/async-eventemitter-npm-0.2.4-0fec935369-b9e77e0f58.zip/node_modules/async-eventemitter/",\
-          "packageDependencies": [\
-            ["async-eventemitter", "npm:0.2.4"],\
-            ["async", "npm:2.6.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1922,6 +2156,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["case", [\
+        ["npm:1.6.3", {\
+          "packageLocation": "./.yarn/cache/case-npm-1.6.3-1bd3a50e38-febe73278f.zip/node_modules/case/",\
+          "packageDependencies": [\
+            ["case", "npm:1.6.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["catering", [\
         ["npm:2.1.1", {\
           "packageLocation": "./.yarn/cache/catering-npm-2.1.1-b116dcdfef-205daefa69.zip/node_modules/catering/",\
@@ -1953,6 +2196,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loupe", "npm:2.3.6"],\
             ["pathval", "npm:1.1.1"],\
             ["type-detect", "npm:4.0.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["chai-as-promised", [\
+        ["npm:7.1.1", {\
+          "packageLocation": "./.yarn/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
+          "packageDependencies": [\
+            ["chai-as-promised", "npm:7.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:7.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-d6c1983645/0/cache/chai-as-promised-npm-7.1.1-cdc17e4612-7262868a5b.zip/node_modules/chai-as-promised/",\
+          "packageDependencies": [\
+            ["chai-as-promised", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:7.1.1"],\
+            ["@types/chai", "npm:4.3.4"],\
+            ["chai", "npm:4.3.7"],\
+            ["check-error", "npm:1.0.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/chai",\
+            "chai"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2952,29 +3218,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["hardhat", [\
-        ["npm:2.12.7", {\
-          "packageLocation": "./.yarn/cache/hardhat-npm-2.12.7-096d5e2f93-d1f86c09f3.zip/node_modules/hardhat/",\
+        ["npm:2.14.0", {\
+          "packageLocation": "./.yarn/cache/hardhat-npm-2.14.0-d5bc348bcd-7a11ad4650.zip/node_modules/hardhat/",\
           "packageDependencies": [\
-            ["hardhat", "npm:2.12.7"]\
+            ["hardhat", "npm:2.14.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7", {\
-          "packageLocation": "./.yarn/__virtual__/hardhat-virtual-a0b0857604/0/cache/hardhat-npm-2.12.7-096d5e2f93-d1f86c09f3.zip/node_modules/hardhat/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0", {\
+          "packageLocation": "./.yarn/__virtual__/hardhat-virtual-7d4910ecd4/0/cache/hardhat-npm-2.14.0-d5bc348bcd-7a11ad4650.zip/node_modules/hardhat/",\
           "packageDependencies": [\
-            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"],\
             ["@ethersproject/abi", "npm:5.7.0"],\
             ["@metamask/eth-sig-util", "npm:4.0.1"],\
-            ["@nomicfoundation/ethereumjs-block", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-blockchain", "npm:6.0.0"],\
-            ["@nomicfoundation/ethereumjs-common", "npm:3.0.0"],\
-            ["@nomicfoundation/ethereumjs-evm", "npm:1.0.0"],\
-            ["@nomicfoundation/ethereumjs-rlp", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-statemanager", "npm:1.0.0"],\
-            ["@nomicfoundation/ethereumjs-trie", "npm:5.0.0"],\
-            ["@nomicfoundation/ethereumjs-tx", "npm:4.0.0"],\
-            ["@nomicfoundation/ethereumjs-util", "npm:8.0.0"],\
-            ["@nomicfoundation/ethereumjs-vm", "npm:6.0.0"],\
+            ["@nomicfoundation/ethereumjs-block", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-blockchain", "npm:7.0.1"],\
+            ["@nomicfoundation/ethereumjs-common", "npm:4.0.1"],\
+            ["@nomicfoundation/ethereumjs-evm", "npm:2.0.1"],\
+            ["@nomicfoundation/ethereumjs-rlp", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-statemanager", "npm:2.0.1"],\
+            ["@nomicfoundation/ethereumjs-trie", "npm:6.0.1"],\
+            ["@nomicfoundation/ethereumjs-tx", "npm:5.0.1"],\
+            ["@nomicfoundation/ethereumjs-util", "npm:9.0.1"],\
+            ["@nomicfoundation/ethereumjs-vm", "npm:7.0.1"],\
             ["@nomicfoundation/solidity-analyzer", "npm:0.1.0"],\
             ["@sentry/node", "npm:5.30.0"],\
             ["@types/bn.js", "npm:5.1.1"],\
@@ -3016,7 +3282,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
             ["undici", "npm:5.20.0"],\
             ["uuid", "npm:8.3.2"],\
-            ["ws", "virtual:a0b085760438b331812a89181959d5a769211866078798ea7e33ee484d33dad903cfb55124ace60928e3d874b58e043bb4390b42ce69edb214329755031d55eb#npm:7.5.9"]\
+            ["ws", "virtual:7d4910ecd43f38f55c39484c0228cec3d921bfcda4071b693c1b4776571af6d1053075f5f452a812399f4d4eadba7ff306c0b00f4e40c3c3a042c271b117427c#npm:7.5.9"]\
           ],\
           "packagePeers": [\
             "@types/ts-node",\
@@ -3386,6 +3652,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/isexe-npm-2.0.0-b58870bd2e-26bf6c5480.zip/node_modules/isexe/",\
           "packageDependencies": [\
             ["isexe", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["js-sdsl", [\
+        ["npm:4.4.0", {\
+          "packageLocation": "./.yarn/cache/js-sdsl-npm-4.4.0-e8ec19da4a-7bb08a2d74.zip/node_modules/js-sdsl/",\
+          "packageDependencies": [\
+            ["js-sdsl", "npm:4.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4074,6 +4349,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["once", "npm:1.4.0"],\
             ["wrappy", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ordinal", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/ordinal-npm-1.0.3-7c847cb0d1-6761c5b760.zip/node_modules/ordinal/",\
+          "packageDependencies": [\
+            ["ordinal", "npm:1.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5284,10 +5568,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-e1e964a4e5/0/cache/ws-npm-7.4.6-9c9a725604-3a990b32ed.zip/node_modules/ws/",\
+        ["virtual:7d4910ecd43f38f55c39484c0228cec3d921bfcda4071b693c1b4776571af6d1053075f5f452a812399f4d4eadba7ff306c0b00f4e40c3c3a042c271b117427c#npm:7.5.9", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-e08cd6e85b/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6"],\
+            ["ws", "virtual:7d4910ecd43f38f55c39484c0228cec3d921bfcda4071b693c1b4776571af6d1053075f5f452a812399f4d4eadba7ff306c0b00f4e40c3c3a042c271b117427c#npm:7.5.9"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
@@ -5301,10 +5585,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:a0b085760438b331812a89181959d5a769211866078798ea7e33ee484d33dad903cfb55124ace60928e3d874b58e043bb4390b42ce69edb214329755031d55eb#npm:7.5.9", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-45a287a81a/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
+        ["virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-e1e964a4e5/0/cache/ws-npm-7.4.6-9c9a725604-3a990b32ed.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:a0b085760438b331812a89181959d5a769211866078798ea7e33ee484d33dad903cfb55124ace60928e3d874b58e043bb4390b42ce69edb214329755031d55eb#npm:7.5.9"],\
+            ["ws", "virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
@@ -5425,38 +5709,46 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@ethersproject/address", "npm:5.7.0"],\
             ["@ethersproject/hash", "npm:5.7.0"],\
             ["@ethersproject/web", "npm:5.7.1"],\
-            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.2"],\
-            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.14"],\
-            ["@matterlabs/hardhat-zksync-verify", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2"],\
-            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.6"],\
+            ["@matterlabs/hardhat-zksync-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.2"],\
+            ["@matterlabs/hardhat-zksync-deploy", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.6.3"],\
+            ["@matterlabs/hardhat-zksync-solc", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.3.16"],\
+            ["@matterlabs/hardhat-zksync-toolbox", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.1"],\
+            ["@matterlabs/hardhat-zksync-verify", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.5"],\
+            ["@matterlabs/hardhat-zksync-vyper", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.1.8"],\
+            ["@nomicfoundation/hardhat-chai-matchers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:1.0.6"],\
+            ["@nomiclabs/hardhat-ethers", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.2.3"],\
+            ["@nomiclabs/hardhat-etherscan", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.1.7"],\
+            ["@nomiclabs/hardhat-vyper", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:3.0.3"],\
             ["@types/chai", "npm:4.3.4"],\
             ["@types/mocha", "npm:10.0.1"],\
             ["@types/node", "npm:18.14.0"],\
             ["chai", "npm:4.3.7"],\
+            ["chai-as-promised", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:7.1.1"],\
             ["debug", "virtual:b86a9fb34323a98c6519528ed55faa0d9b44ca8879307c0b29aa384bde47ff59a7d0c9051b31246f14521dfb71ba3c5d6d0b35c29fffc17bf875aa6ad977d9e8#npm:4.3.4"],\
             ["dotenv", "npm:16.0.3"],\
             ["ethers", "npm:5.7.2"],\
-            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.12.7"],\
+            ["hardhat", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:2.14.0"],\
             ["mocha", "npm:10.2.0"],\
+            ["ordinal", "npm:1.0.3"],\
             ["ts-node", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
-            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"]\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.14.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
       ]],\
       ["zksync-web3", [\
-        ["npm:0.13.4", {\
-          "packageLocation": "./.yarn/cache/zksync-web3-npm-0.13.4-478ca3c693-628d91a2c6.zip/node_modules/zksync-web3/",\
+        ["npm:0.14.4", {\
+          "packageLocation": "./.yarn/cache/zksync-web3-npm-0.14.4-3181290eb1-f702a3437f.zip/node_modules/zksync-web3/",\
           "packageDependencies": [\
-            ["zksync-web3", "npm:0.13.4"]\
+            ["zksync-web3", "npm:0.14.4"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4", {\
-          "packageLocation": "./.yarn/__virtual__/zksync-web3-virtual-71df40ac23/0/cache/zksync-web3-npm-0.13.4-478ca3c693-628d91a2c6.zip/node_modules/zksync-web3/",\
+        ["virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.14.4", {\
+          "packageLocation": "./.yarn/__virtual__/zksync-web3-virtual-7a2df5b253/0/cache/zksync-web3-npm-0.14.4-3181290eb1-f702a3437f.zip/node_modules/zksync-web3/",\
           "packageDependencies": [\
-            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.13.4"],\
+            ["zksync-web3", "virtual:08aef9afd55266b6e3e39988eec72434e5bce62d1229f0fc0b536d4f975cd56560652370d23a02e819fb696830ae4b374d41e3ec03f7bb4ee662027509cce52c#npm:0.14.4"],\
             ["@types/ethers", null],\
             ["ethers", "npm:5.7.2"]\
           ],\

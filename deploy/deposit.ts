@@ -1,4 +1,4 @@
-import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
+import { Deployer } from "@matterlabs/hardhat-zksync-toolbox";
 import * as dotenv from "dotenv";
 import * as ethers from "ethers";
 import { HardhatRuntimeEnvironment } from "hardhat/types";

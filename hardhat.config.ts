@@ -1,10 +1,8 @@
-import "@matterlabs/hardhat-zksync-deploy";
-import "@matterlabs/hardhat-zksync-solc";
-import "@matterlabs/hardhat-zksync-verify";
+import "@matterlabs/hardhat-zksync-toolbox";
 
 const config = {
   zksolc: {
-    version: "1.3.5",
+    version: "1.3.8",
     compilerSource: "binary",
     settings: {},
   },
@@ -22,7 +20,7 @@ const config = {
     },
   },
   solidity: {
-    version: "0.8.17",
+    version: "0.8.18",
   },
 };
 

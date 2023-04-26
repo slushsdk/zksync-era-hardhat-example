@@ -1,4 +1,4 @@
-import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
+import { Deployer } from "@matterlabs/hardhat-zksync-toolbox";
 import * as dotenv from "dotenv";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { ContractFactory, Wallet } from "zksync-web3";
