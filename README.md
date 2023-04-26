@@ -2,7 +2,7 @@
 This simple project provides an example of how to deploy [Solidity](https://soliditylang.org/) contracts to the [zkSync Era network](https://era.zksync.io/docs/) using [Hardhat](https://hardhat.org).
 
 ## Prerequisites
-- [Node.js](https://github.com/nvm-sh/nvm) (tested with v18.13.0)
+- [Node.js](https://github.com/nvm-sh/nvm) (tested with v18.16.0)
 - [yarn](https://yarnpkg.com/getting-started/install) (tested with v3.3.1)
 - wallet connected to the zkSync Era network ([guide](https://era.zksync.io/docs/dev/fundamentals/interacting.html#connecting-to-zksync-era-on-metamask))
 - zkSync [local-setup](https://github.com/matter-labs/local-setup) (optional, for local deployment and testing)
